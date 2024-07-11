@@ -1,3 +1,5 @@
+// Part 1. Getting Started (part 3 from Lab 1)
+
 // Menu data structure
 var menuLinks = [
     { text: 'about', href: '/about' },
@@ -16,6 +18,9 @@ mainEl.style.backgroundColor = 'var(--main-bg)'
 mainEl.innerHTML = '<h1>DOM Manipulation</h1>'
 //step 4 
 mainEl.classList = 'flex-ctr';
+
+// Part 2: Adding Additional HTML and CSS
+
 
 // Creating a menu bar 
 //step 1
