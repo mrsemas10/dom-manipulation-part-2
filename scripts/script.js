@@ -15,7 +15,7 @@ mainEl.innerHTML = '<h1>DOM Manipulation</h1>';
 mainEl.classList = 'flex-ctr'; 
 
 // Part 2: Creating a Menu Bar
-
+ 
 //step 1
 const topmenuEl = document.getElementById('top-menu');
 console.log(topmenuEl);
@@ -129,6 +129,27 @@ var menuLinks = [
 ];
 
 // step 1
+const topMenuLinks = topmenuEl.querySelector('a');
+console.log(topMenuLinks);
+
+// step 2
+topmenuEl.addEventListener("click", onClick);
+
+function onClick(evt) {
+    evt.preventDefault();
+    if ('a' === false) {
+        return;
+    }
+    console.log('a');
+}
+
+// step 1a: I am very frustrated as i am reading the words but nothing is coming to mind 
+// what I am supposed to do. i have no idea where i am supposed to go from here. even
+// after reading the lesson and the notes from the code alongs several times...
+// none of this makes any sense to me :( i even tried to google the answer and it is just not clicking
+// on what i am supposed to do here
 
 
+
+// Part 5: Adding Submenu Interaction
 
